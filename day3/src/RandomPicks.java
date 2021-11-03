@@ -11,6 +11,7 @@ public class RandomPicks {
 
     public static void test1(int a){
         List<String> name = Arrays.asList("짱구", "코코아", "정우성", "K", "유리", "지수", "아이유", "수현");
+       // List<String> name = ["짱구", "코코아", "정우성", "K", "유리", "지수", "아이유", "수현"];
         Collections.shuffle(name);
 
         for (int i = 0; i < a; i++){
